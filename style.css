@@ -1,0 +1,71 @@
+body {
+  background-color: grey;
+  color: black;
+  text-align: center;
+  border: 10px solid aliceblue;
+  border-style: dashed;
+  
+}
+
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  margin:5px;
+  background-color: lavender
+}
+
+#gameButtonArea > button {
+  width:130px;
+  height:120px;
+  margin:10px;
+}
+
+#btn1 {
+  background: lightgreen;
+  
+}
+#btn1:active, #btn1.lit {
+  background: green;
+}
+
+#btn2 {
+  background: lightblue;
+  
+}
+#btn2:active, #btn2.lit {
+  background: lightskyblue;
+}
+
+#btn3 {
+  background: pink;
+  
+}
+#btn3:active, #btn3.lit {
+  background: hotpink;
+}
+
+#btn4 {
+  background: indianred;
+  
+}
+#btn4:active, #btn4.lit {
+  background: red;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border-left: 6px solid aliceblue;
+  border-right: 6px solid aliceblue;
+  background-color: lightgrey;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}

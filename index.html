@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Memory Game</title>
+    
+    <link rel="stylesheet" href="/style.css">
+    
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Memory Game</h1>
+    
+    <p class="center">
+      Welcome to your memory game! Repeat the pattern by pressing the buttons. The game will end after 3 mistakes.
+    </p>
+    
+    <div id="starting" class="center">
+      <button id="startBtn" onclick="startGame()">
+        Start
+      </button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">
+        Stop
+      </button>
+    </div>
+    
+    <div id="difficulty" class="center">
+      <p id="difhelp">
+        Difficulty: Easy (5) (Click the buttons to change)
+      </p>
+      <button id="easyBtn" onclick="settingsEasy()">
+        Easy
+      </button>
+      <button id="medBtn" onclick="settingsMed()">
+        Medium
+      </button>
+      <button id="hardBtn" onclick="settingsHard()">
+        Hard
+      </button>
+      <p id="mistakesCount" class="hidden">
+        Mistakes: 0
+      </p>
+    </div>
+    
+    <div id="gameButtonArea">
+      <button id="btn1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()"></button>
+      <button id="btn2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()"></button>
+      <button id="btn3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()"></button>
+      <button id="btn4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()"></button>
+    </div>
+    
+  </body>
+</html>
