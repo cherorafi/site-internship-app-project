@@ -6,7 +6,7 @@ Submitted by: Syeda Nahar
 
 Time spent: 4-5 hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/bejewled-tough-lan
 
 ## Required Functionality
 
